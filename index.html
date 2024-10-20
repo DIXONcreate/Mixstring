@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIXSTRING</title>
+    <script src="./script/mix.js" defer></script>
+    <script src="./script/addspace.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>MIXSTRING</h2>
+    <div>
+        <input type="text" id="mixstring" class="mixstring" placeholder="Enter string">
+        <button id ="mix" class="mix">MIX</button><br>
+        <br>
+        <div>StringLength: <span id="stringlength"></span></div> 
+        <div>StringMix <button id="copy" class="copy">COPY</button></div><br>
+        <textarea id="mixoutput" class="mixoutput" readonly></textarea>
+    </div><br>
+    
+    
+    <h2>ADDSPACE</h2>
+    <div>
+        <div>최소 공백수: <input type="number" id="minspace" class="minspace"></div>
+        <div>최대 공백수: <input type="number" id="maxspace" class="maxspace"></div>
+        
+        <input type="text" id="addspace" class="addspace" placeholder="Enter string">
+        <button id ="addspacebtn">ADDSPACE</button><br>
+        <div>Result <button id="addspacecopy" class="copy">COPY</button></div><br>
+        <textarea id="spaceoutput" class="spaceoutput"></textarea>
+    </div>
+    
+</body>
+</html>
